@@ -1,0 +1,125 @@
+/*****Custom css********/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; color:#101010; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { 
+line-height: 1; 
+font-family: open sans;
+}
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+p{ font-family: open sans; }
+a{ text-decoration:none; font-family:open sans }
+h1,h2,h3,h4,h5,h6,h7{ font-family:open sans }
+
+
+
+
+
+#header {
+    display: block;
+    position: fixed;
+}
+#header .logins a {
+    margin: 0 5px 0 5px;
+}
+#header .logins a.sign {
+    margin: 0 0px 0 5px;
+	
+}
+#header .logins a i {
+    margin: 0 3px 0 0;
+}
+.main-top{
+    background-image: linear-gradient(90deg,rgb(216,23,87) 0%,rgb(228,56,27)100%);
+}
+.login , .Become-member
+{
+    text-decoration: none;   
+    background-color:rgba(255,255,255,0.6);
+    color: #E33824;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+.link-f
+{
+    background-color:rgba(255,255,255,0.6);
+    color: #E33824;
+    padding-left: 7px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-radius: 4px;
+    vertical-align: top;
+}
+.link-tigp{
+    vertical-align: top;
+    color:rgba(255,255,255,0.6);
+    line-height: 1;
+}
+ .Become-member:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: white;
+    color: #E33824;
+}
+.login:hover{
+    text-decoration: none;
+    transition: 0.2s;
+    background-color: white;
+    color: #E33824;
+}
+.link-f:hover{
+    transition: 0.2s;
+    background-color: white;
+    color: #E33824;
+}
+.link-tigp:hover{
+    transition: 0.2s;
+    color: white;
+}
+i.fa{
+    font-size: 22px;
+    vertical-align: top;
+}
+.menu-social ul{
+
+    float: right;
+    margin-right:  20px;
+}
+.menu-social li{
+    float: right;
+    margin: 0px 5px 0px 5px;
+}
+.navhead{
+	margin-top: 70px;
+}
+.quote
+{
+	float: left;
+}
+
+@media screen and (max-width: 1200px)
+{
+	.topp{
+		display: none;
+		margin-top: 0px;
+	}
+	.navtop{
+		margin:0;
+		width: 100%;
+		position: fixed;
+	}
+	.navhead{
+		margin:0;
+		width: 100%;
+		position: fixed;
+	}
+
+}
