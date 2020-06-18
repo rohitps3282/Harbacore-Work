@@ -5,38 +5,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body { 
 line-height: 1; 
 font-family: open sans;
+background-color: #fff;
 }
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
-table { border-collapse: collapse; border-spacing: 0; }
-p{ font-family: open sans; }
-a{ text-decoration:none; font-family:open sans }
-h1,h2,h3,h4,h5,h6,h7{ font-family:open sans }
-
-
-
-
 
 #header {
     display: block;
     position: fixed;
 }
-#header .logins a {
-    margin: 0 5px 0 5px;
-}
-#header .logins a.sign {
-    margin: 0 0px 0 5px;
-	
-}
-#header .logins a i {
-    margin: 0 3px 0 0;
-}
 .main-top{
     background-image: linear-gradient(90deg,rgb(216,23,87) 0%,rgb(228,56,27)100%);
+    padding-bottom: 80px;
 }
 .login , .Become-member
 {
-    text-decoration: none;   
+    text-decoration: none !important;   
     background-color:rgba(255,255,255,0.6);
     color: #E33824;
     padding-left: 15px;
@@ -48,13 +30,14 @@ h1,h2,h3,h4,h5,h6,h7{ font-family:open sans }
     font-size: 12px;
     font-weight: 700;
 }
+
 .link-f
 {
     background-color:rgba(255,255,255,0.6);
     color: #E33824;
     padding-left: 7px;
-    padding-right: 5px;
-    padding-top: 5px;
+    padding-right: 3px;
+    padding-top: 3px;
     border-radius: 4px;
     vertical-align: top;
 }
@@ -64,13 +47,13 @@ h1,h2,h3,h4,h5,h6,h7{ font-family:open sans }
     line-height: 1;
 }
  .Become-member:hover{
-    transition: 0.5s;
-    text-decoration: none;
+    transition: 0.2s;
+    text-decoration: none !important;
     background-color: white;
     color: #E33824;
 }
 .login:hover{
-    text-decoration: none;
+    text-decoration: none !important;
     transition: 0.2s;
     background-color: white;
     color: #E33824;
@@ -97,29 +80,101 @@ i.fa{
     float: right;
     margin: 0px 5px 0px 5px;
 }
-.navhead{
-	margin-top: 70px;
-}
-.quote
+
+@media screen and (min-width: 1200px)
 {
+	.main-content{
+		margin-top: 230px;
+		text-align: justify;
+	}
+	.quote
+	{
 	float: left;
+	}
+	.nav-icon{
+		float: right;
+	}
+	.navhead{
+	margin-top: -25px;
+	border: 4px solid white;
+	background-color: white;
+	border-radius: 10px;
+	}
+	.logo-small-screen
+	{
+		display: hidden;
+		visibility: hidden;
+	}
+	.logobrand
+	{
+		display: none;
+		visibility: hidden;
+	}
+	.headsmall
+	{
+		display: none;
+	}
+	.navbar-nav a {
+		text-decoration: bold !important;
+  		color: #000000 !important;
+  		font-family: circularstd,sans-serif;
+  		font-weight: 700;
+    }
+    .navbar a:hover {
+  		color: rgb(216,23,87) !important;
+	}
+
 }
 
 @media screen and (max-width: 1200px)
-{
+{	
+	.main-top{
+		display: none;
+	}
 	.topp{
 		display: none;
 		margin-top: 0px;
 	}
-	.navtop{
-		margin:0;
-		width: 100%;
-		position: fixed;
-	}
+	
 	.navhead{
 		margin:0;
-		width: 100%;
+		border-bottom: 1px solid white;
+		background-image:  linear-gradient(90deg,rgb(216,23,87) 0%,rgb(228,56,27)100%);
 		position: fixed;
 	}
+	.main-content{
+		margin-top: 90px;
+		text-align: justify;
+	}
+	.quote{
+		display: none;
+	}
+	.headbig{
+		display: none;
+	}
+	.custom-toggler .navbar-toggler-icon {
+  	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
 
+	.custom-toggler.navbar-toggler {
+  	border-color:#000000;
+	} 
+	.navbar-nav{
+		background-image: linear-gradient(90deg,rgb(216,23,87) 0%,rgb(228,56,27)100%);
+		height: 100vh;
+	}
+	.navbar-nav a {
+  	color: white !important;
+  	padding-top: 30px;
+  	text-decoration: bold;
+  	font-size: 17x;
+  	display: block;
+  	border-bottom: 1px solid rgba(230,230,230,0.3);
+  	font-family: circularstd,sans-serif;
+  	font-weight: 700;
+	}
+}
+
+i.link-f{
+	font-size: 17px;
 }
