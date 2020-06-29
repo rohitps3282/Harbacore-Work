@@ -1,0 +1,223 @@
+.banner{
+    background-image:linear-gradient(to right, #8b34c5 , #38a6da , #8b34c5) ;
+    
+}
+/*
+body{
+    font-family: 'Merriweather', serif;
+}
+*/
+.first_block{ 
+    margin-left: 40px;
+    padding-top: 10px;
+	font-family: sans-serif; 
+	color: #fff; 
+	display: inline-block; 
+	font-weight: 300; 
+	text-align: center !important; 
+    font-size: 20px !important; 
+    /*
+    background-color: rgb(98, 98, 241) !important;
+    */
+    text-align: left;
+} 
+.sale_live{
+    padding-top: 7px;
+    padding-right: 7px;
+    font: 20px Muli , sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.off{
+    font-size: 20px !important;
+}
+.div1 , .div2 , .div3 , .div4{
+    display: inline-block;
+
+}
+
+.days , .hours , .minutes , .seconds{
+    color: #2f1c6a;
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 4px;
+}
+.dot{
+    display: inline-block;
+    color: white;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+}
+.smalltext{
+    margin-top: 24px;
+    text-align: center;
+    font: 12px Muli, sans-serif;
+    color: white;
+}
+.shop_now
+{
+    background-color: #fc5185;
+    color: whitesmoke;
+    display: inline-block;
+    font-weight: 700 !important;
+    font: 13px Muli ,  sans-serif;
+    padding: 6px 42px;
+    border-radius: 30px;
+    margin-top: 6px;
+}
+.shop_now:hover{
+    transition: s;
+    background-color: #fd135a;;
+    text-decoration: none;
+    color: white;
+}
+.middle_block{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 30px;
+    /*
+    background-color: rgb(18, 73, 70);
+    */
+}
+.last_block{
+    color: white;
+    /*
+    background-color: rgb(255, 185, 159) !important;
+    */
+}
+.save1{
+    font-size: 32px;
+    font-weight: 500;
+}
+.save2{
+    font-size: 24px;
+}
+.sale_end{
+    font-weight: 600;
+}
+.savings{
+    margin-top: 8px;
+}
+@media screen and (max-width: 1222px)
+{
+    .save1{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .save2{
+        font-size: 17px;
+    }
+    .days , .hours , .minutes , .seconds{
+        color: #2f1c6a;
+        background-color: #ffffff;
+        padding: 8px;
+        border-radius: 2px;
+    }
+    .shop_now
+    {
+        background-color: #fc5185;
+        color: whitesmoke;
+        display: inline-block;
+        font-weight: 700 !important;
+        font: 10px Muli ,  sans-serif;
+        padding: 3px 32px;
+        border-radius: 25px;
+    }
+    .smalltext{
+        margin-top: 12px;
+        margin-bottom: 3px;
+        text-align: center;
+        font: 10px Muli, sans-serif;
+        color: white;
+    }
+    .savings{
+        margin-top: 12px !important;
+    }
+    .off{
+        margin-top: 15px;
+        font-size: 17px !important;
+    }
+    .sale_end{
+        margin-top: 10px !important;
+        margin-bottom: 8px !important;
+    }
+}
+
+@media screen and (max-width: 865px)
+{
+    .first_block{
+        margin-left: 20px;
+    }
+    .middle_block{
+        margin-left: 4px !important;
+    }
+    .save1{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .save3{
+        margin-top: 15px !important;
+    }
+    .save2{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .days , .hours , .minutes , .seconds{
+        color: #2f1c6a;
+        background-color: #ffffff;
+        padding: 4px 6px ;
+        border-radius: 2px;
+    }
+    .smalltext{
+        margin-top: 12px;
+        margin-bottom: 3px;
+        text-align: center;
+        font: 10px Muli, sans-serif;
+        color: white;
+    }
+    .savings{
+        margin-top: 12px !important;
+    }
+    .off{
+        margin-top: 15px;
+        font-size: 15px !important;
+    }
+    .sale_end{
+        margin-top: 10px !important;
+        margin-bottom: 8px !important;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .middle_block{
+        text-align: center !important;
+    }
+    .shop_now
+    {
+        background-color: #fc5185;
+        color: whitesmoke;
+        display: inline-block;
+        font-weight: 700 !important;
+        font: 13px Muli ,  sans-serif;
+        padding: 6px 42px;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+    .last_block{
+        margin-bottom: 10px;
+    }
+
+    .first_block , .middle_block , .last_block{
+        margin-left: 5px;
+    }
+    /*
+    .clock{
+        color: rgb(0, 0, 0);
+    }
+    */
+}
+body{
+    font-family: Muli , sans-serif;
+}
